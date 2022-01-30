@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <!-- 事件冒泡与捕获 -->
+      <!-- 事件冒泡，顺序：div -> body -> html -> document -->
+      <!-- 事件捕获，顺序：document -> html -> body -> div -->
+      <div class="dom-event">
+        <div class="item white">
+          <div class="item pink">
+            <div class="item yellow">
+              <div class="item red">
+                <div class="item green">
+                  <div class="item blue">
+              
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

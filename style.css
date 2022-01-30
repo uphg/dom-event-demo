@@ -1,0 +1,56 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.dom-event {
+  width: 360px;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+.item {
+  width: calc(100% - 45px);
+  height: calc(100% - 45px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: background-color 0.3s;
+  border: 1px solid #000;
+}
+
+.blue.active {
+  background-color: #05487c;
+}
+
+.green.active {
+  background-color: #48732d;
+}
+
+.red.active {
+  background-color: #c24022;
+}
+
+.yellow.active {
+  background-color: #ecb912;
+}
+
+.pink.active {
+  background-color: #af8d8a;
+}
+
+.white.active {
+  background-color: #f7eed6;
+}
